@@ -20,7 +20,7 @@ the flute object is freed.
 
 Here are some results running on a 2014 Mac 2.8Ghz Intel Core i7 with
 16GB DDR3 RAM:
-
+```
  Number of Pins          Running Time in Milliseconds       Memory Usage
  --------------          ----------------------------       -----------
    1,000,000                     6,152,125                    298MB
@@ -34,8 +34,12 @@ Here are some results running on a 2014 Mac 2.8Ghz Intel Core i7 with
 Note 1: too small for interrupt timer.  Calculated 2ms / 1000 calls
 Note 2: too small for interrupt timer.  Calculated 62ms / 1,000,000 calls
 
+```
+
+
 ### FLUTE 3.1
 
+```
 -------------- FLUTE - Version 3.1 -----------------
                        by
                 Chris C.-N. Chu
@@ -76,3 +80,4 @@ to be in the current directory.  Some example commands:
  rand-pts 20 | flute-net	    // 20-pin nets
  rand-pts -r 20 | flute-net	    // randomized
  flute-ckt ibm01 ibm01.aux ibm01/ibm01.pl
+ ```
