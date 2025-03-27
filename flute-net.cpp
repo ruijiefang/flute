@@ -20,4 +20,12 @@ int main()
 
     flutewl = Flute::flute_wl(flute1, d, x, y, FLUTE_ACCURACY);
     printf("FLUTE wirelength (without RSMT construction) = %d\n", flutewl);
+
+    printf("flute tree ----------------\n");
+    Flute::printtree(flutetree);
+
+//    printf("flute plot-------------\n");
+//    Flute::plottree(flutetree);
+
+    return 0;
 }
